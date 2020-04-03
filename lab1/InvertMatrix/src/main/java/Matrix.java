@@ -63,13 +63,24 @@ public class Matrix {
         return algebraicExtensionsMatrix;
     }
 
-    public void showMatrix(double[][] matrix) { /**ограничить до 3 знака**/
+    public double[][] getInvertMatrix(double[][] matrix) {
+        double[][] algebraicExtensionsMatrix = getMatrixFromSubMatrix(matrix);
+        double determinant = getDeterminant(matrix);
+        for (int i = 0; i < algebraicExtensionsMatrix.length; i++) {
+            for (int j = 0; j < algebraicExtensionsMatrix.length; j++) {
+                algebraicExtensionsMatrix[i][j] = Math.round(1/determinant * algebraicExtensionsMatrix[i][j] * 1000) /1000.0 ;
+            }
+        }
+        return transposeMatrix(algebraicExtensionsMatrix);
+    }
+
+    public void showMatrix(double[][] matrix) {
         for (double[] row : matrix) {
             System.out.println(Arrays.toString(row));
         }
     }
 
-    public static String toString(double[][] a) { //перегрузил метод toString для одномерного массива
+    public static String toString(double[][] a) {
         if (a == null)
             return "null";
         int iMax = a.length - 1;

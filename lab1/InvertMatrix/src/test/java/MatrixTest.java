@@ -101,7 +101,7 @@ public class MatrixTest {
     }
 
     @Test
-    public void getMatrixFromSubMatrix1() {
+    public void getMatrixFromSubMatrix() {
         double[][] array = {{2, 3, 7},
                 {1, -5, 2},
                 {3, -1, 9}};
@@ -109,6 +109,21 @@ public class MatrixTest {
                 {-34,-3, 11},
                 {41, 3, -13}};
         assertArrayEquals(expected, matrix.getMatrixFromSubMatrix(array));
+    }
+
+    @Test
+    public void getInvertMatrix() {
+        double[][] array = {
+                {2, 3, 7},
+                {1, -5, 2},
+                {3, -1, 9}
+        };
+        double[][] expected = {
+                {-14.333, -11.333, 13.667},
+                {-1, -1, 1},
+                {4.667, 3.667, -4.333},
+        };
+        assertArrayEquals(expected, matrix.getInvertMatrix(array));
     }
 
     @Test
@@ -127,6 +142,6 @@ public class MatrixTest {
         System.setOut(out);
         matrix.showMatrix(array);
         System.setOut(originalOutputStream);
-        assertEquals(Matrix.toString(expected), stream.toString());
+        assertEquals(Matrix.toString(expected)/*использую для тестировки метод, который нужно тестировать//умно*/, stream.toString());
     }
 }
