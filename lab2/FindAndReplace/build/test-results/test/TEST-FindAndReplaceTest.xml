@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FindAndReplaceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-08T10:47:16" hostname="LAPTOP-LCKOCNDG" time="0.003">
+  <properties/>
+  <testcase name="main_StringWithoutSearchStringInside_ShouldShowOriginalString" classname="FindAndReplaceTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
