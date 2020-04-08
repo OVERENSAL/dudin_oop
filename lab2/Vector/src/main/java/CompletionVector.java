@@ -9,7 +9,7 @@ public class CompletionVector {
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             Vector<Double> vector = new Vector<>();
             String line;
-            while ((line = reader.readLine()) != null) {
+            if ((line = reader.readLine()) != null) {
                 for (String part: line.split("\\s")) {
                     try {
                         vector.add(Double.parseDouble(part));
