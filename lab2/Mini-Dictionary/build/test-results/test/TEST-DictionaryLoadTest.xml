@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DictionaryLoadTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-10T17:54:25" hostname="LAPTOP-LCKOCNDG" time="0.003">
+  <properties/>
+  <testcase name="dictionaryLoad_EmptyArgs_ShouldShowMistakeMessageAndReturnNull" classname="DictionaryLoadTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
