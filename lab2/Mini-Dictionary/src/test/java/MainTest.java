@@ -39,7 +39,9 @@ public class MainTest {
         System.setIn(in);
         String[] args = {PATH + "input.txt"};
         Main.main(args);
-        assertEquals(dictionaryObject.LOADING_DICTIONARY + "\r\n", stream.toString());
+        assertEquals(dictionaryObject.LOADING_DICTIONARY + "\r\n"
+                + loop.MANUAL + "\r\n" + loop.CONSERVATION + "\r\n"
+                + dictionaryObject.SAVE_MSG + "\r\n", stream.toString());
     }
 
     @Test

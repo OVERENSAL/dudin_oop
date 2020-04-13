@@ -8,11 +8,19 @@ public class Dictionary {
     public final String LOADING_DICTIONARY = "The dictionary is loading...";
     public final String ENTER_MANUAL = "Enter a translation or an empty line to exit.";
     public final String SAVE_MSG = "All changes were saved. Good day!";
+    public final String TROUBLE_CREATE = "Can not create file.";
 
     public Map<String, String> dictionaryLoad(String[] args) {
         Map <String, String> dictionary = new HashMap<>();
         if (args.length == 1) {
-            File in = new File(args[0]);
+            File file = new File(args[0]);
+            if (!file.exists()) {
+                try {
+                    file.createNewFile();
+                } catch (IOException e) {
+                    System.out.println(TROUBLE_CREATE);
+                }
+            }
         }
         try (BufferedReader reader = new BufferedReader(new FileReader(args[0]))) {
             System.out.println(LOADING_DICTIONARY);
