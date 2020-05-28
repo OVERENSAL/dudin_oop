@@ -10,7 +10,7 @@ public class MatrixTest {
         double[][] array = {{2, 3, 7},
                 {1, -5, 2},
                 {3, -1, 9}};
-        assertEquals(3, (int)matrix.getDeterminant(array));
+        assertEquals(3, matrix.getDeterminant(array), 1);
     }
 
     @Test
@@ -18,14 +18,14 @@ public class MatrixTest {
         double[][] array = {{0, 0, 0},
                 {0, 0, 0},
                 {0, 0, 0}};
-        assertEquals(0, (int)matrix.getDeterminant(array));
+        assertEquals(0, matrix.getDeterminant(array), 1);
     }
 
     @Test
     public void getDeterminant5() {
         double[][] array = {{1, -1},
                 {2, 3}};
-        assertEquals(5, (int)matrix.getDeterminant(array));
+        assertEquals(5, (int)matrix.getDeterminant(array), 1);
     }
 
     @Test
