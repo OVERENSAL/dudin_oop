@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoopRequestsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-20T14:26:00" hostname="LAPTOP-LCKOCNDG" time="0.032">
+<testsuite name="LoopRequestsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-28T13:45:49" hostname="LAPTOP-LCKOCNDG" time="0.068">
   <properties/>
-  <testcase name="turnOnTV_Set99Channel_ShouldShowInfoThatChannelIsChange" classname="LoopRequestsTest" time="0.004"/>
+  <testcase name="turnOnTV_Set99Channel_ShouldShowInfoThatChannelIsChange" classname="LoopRequestsTest" time="0.006"/>
   <testcase name="doubleTurnOffTV_ShouldShowInfoThatTVIsOff" classname="LoopRequestsTest" time="0.001"/>
-  <testcase name="turnOnTV_Set100Channel_ShouldShowInfoThatChannelIsNotChange" classname="LoopRequestsTest" time="0.001"/>
-  <testcase name="turnOnTV_SetNegativeChannel_ShouldShowInfoThatUnknownCommand" classname="LoopRequestsTest" time="0.002"/>
+  <testcase name="turnOnTV_Set100Channel_ShouldShowInfoThatChannelIsNotChange" classname="LoopRequestsTest" time="0.002"/>
+  <testcase name="turnOnTV_SetNegativeChannel_ShouldShowInfoThatUnknownCommand" classname="LoopRequestsTest" time="0.001"/>
   <testcase name="setChannel_ShouldShowInfoThatTVIsOff" classname="LoopRequestsTest" time="0.002"/>
   <testcase name="selectChannel_ShouldReturnSelectChannelNumberEvenNonRight" classname="LoopRequestsTest" time="0.001"/>
-  <testcase name="turnTV_SelectChannel_TurnOffTV_turnTV_Info_ShouldShowRememberChannel" classname="LoopRequestsTest" time="0.001"/>
+  <testcase name="turnTV_SelectChannel_TurnOffTV_turnTV_Info_ShouldShowRememberChannel" classname="LoopRequestsTest" time="0.004"/>
   <testcase name="selectChannel_ShouldReturnSelectChannelNumber" classname="LoopRequestsTest" time="0.001"/>
-  <testcase name="emptyInput_ShouldCorrectlyFinishLoop" classname="LoopRequestsTest" time="0.002"/>
+  <testcase name="emptyInput_ShouldCorrectlyFinishLoop" classname="LoopRequestsTest" time="0.003"/>
   <testcase name="turnOnTV_TurnOff_ShouldShowInfoThatTVIsOff" classname="LoopRequestsTest" time="0.001"/>
-  <testcase name="nothing_ShouldShowInfoThatTVIsOff" classname="LoopRequestsTest" time="0.0"/>
+  <testcase name="nothing_ShouldShowInfoThatTVIsOff" classname="LoopRequestsTest" time="0.001"/>
   <testcase name="doubleTurnOnTV_ShouldShowInfoThatTVIsOn" classname="LoopRequestsTest" time="0.002"/>
-  <testcase name="nonSelectChannel_ShouldReturn0" classname="LoopRequestsTest" time="0.001"/>
-  <testcase name="nonSelectChannel2_ShouldReturn0" classname="LoopRequestsTest" time="0.0"/>
-  <testcase name="turnOnTV_ShouldShowInfoThatTVIsOn" classname="LoopRequestsTest" time="0.0"/>
+  <testcase name="nonSelectChannel_ShouldReturn0" classname="LoopRequestsTest" time="0.003"/>
+  <testcase name="nonSelectChannel2_ShouldReturn0" classname="LoopRequestsTest" time="0.004"/>
+  <testcase name="turnOnTV_ShouldShowInfoThatTVIsOn" classname="LoopRequestsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,6 +1,7 @@
 public class TV {
     private boolean power = false;
-    private int channel = 0, minChannel = 0, maxChannel = 100;
+    private int channel = 0;
+    private final int minChannel = 0, maxChannel = 100;
     private final String enableMode = "TV is on. Current channel is ";
     private final String disableMode = "TV is off.";
 

@@ -46,7 +46,11 @@ public class LoopRequests {
     public int isSelectChannel(String line) {
         String[] lines = line.split("\\s");
         if (lines.length == 2 && lines[0].equals(SELECT_CHANNEL)) {
-            return Integer.parseInt(lines[1]);
+            try {
+                return Integer.parseInt(lines[1]);
+            } catch (NumberFormatException e) {
+                return 0;
+            }
         }
         return 0;
     }
