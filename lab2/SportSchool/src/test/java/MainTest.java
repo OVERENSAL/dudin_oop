@@ -53,21 +53,21 @@ public class MainTest {
     public void main_1Args_ShouldShowList() {
         String[] args = {PATH + "1.txt"};
         Main.main(args);
-        assertEquals("Vasya Pukin\r\nDima Bukin\r\nPetya Kukin\r\nValera Reper\r\n", stream.toString());
+        assertEquals("Валера\r\nVasya Pukin\r\nDima Bukin\r\nPetya Kukin\r\n", stream.toString());
     }
 
     @Test
     public void main_someArgs_ShouldShowList() {
         String[] args = {PATH + "1.txt", PATH + "2.txt"};
         Main.main(args);
-        assertEquals("Tem Bulatov\r\nVasya Pukin\r\nDima Bukin\r\nLina Dueren\r\n" +
-                "Petya Kukin\r\nValera Reper\r\nValya Biber\r\nGenry Shifter\r\n", stream.toString());
+        assertEquals("Валера\r\nTem Bulatov\r\nVasya Pukin\r\nDima Bukin\r\nLina Dueren\r\n" +
+                "Petya Kukin\r\nValya Biber\r\nGenry Shifter\r\n", stream.toString());
     }
 
     @Test
     public void main_someArgsWithRepeat_ShouldShowListWithoutRepeat() {
         String[] args = {PATH + "1.txt", PATH + "1(1).txt"};
         Main.main(args);
-        assertEquals("Vasya Pukin\r\nDima Bukin\r\nPetya Kukin\r\nValera Reper\r\n", stream.toString());
+        assertEquals("Валера\r\nVasya Pukin\r\nDima Bukin\r\nPetya Kukin\r\n", stream.toString());
     }
 }

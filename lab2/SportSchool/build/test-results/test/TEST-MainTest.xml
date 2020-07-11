@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-06-22T08:44:51" hostname="LAPTOP-LCKOCNDG" time="0.018">
+  <properties/>
+  <testcase name="main_EmptyArgs_ShouldShowMistakeMessage" classname="MainTest" time="0.007"/>
+  <testcase name="showSet_Empty_ShouldShowEmptyList" classname="MainTest" time="0.002"/>
+  <testcase name="main_someArgsWithRepeat_ShouldShowListWithoutRepeat" classname="MainTest" time="0.002"/>
+  <testcase name="main_someArgs_ShouldShowList" classname="MainTest" time="0.001"/>
+  <testcase name="showSet_SomeItems_ShouldShowAllThisItems" classname="MainTest" time="0.0"/>
+  <testcase name="main_1Args_ShouldShowList" classname="MainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

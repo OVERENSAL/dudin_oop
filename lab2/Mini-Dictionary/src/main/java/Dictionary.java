@@ -9,6 +9,7 @@ public class Dictionary {
     public final String ENTER_MANUAL = "Enter a translation or an empty line to exit.";
     public final String SAVE_MSG = "All changes were saved. Good day!";
     public final String TROUBLE_CREATE = "Can not create file.";
+    private final int NUMBER_OF_WORDS = 2;
 
     public Map<String, String> dictionaryLoad(String[] args) {
         Map <String, String> dictionary = new HashMap<>();
@@ -28,7 +29,7 @@ public class Dictionary {
             String[] parseString;
             while ((line = reader.readLine()) != null) {
                 parseString = line.split("\\s");
-                if (parseString.length == 2) {
+                if (parseString.length == NUMBER_OF_WORDS) {
                     dictionary.put(parseString[0], parseString[1]);
                 }
             }
