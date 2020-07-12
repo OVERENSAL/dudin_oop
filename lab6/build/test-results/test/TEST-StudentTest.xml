@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StudentTest" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-07-12T11:20:13" hostname="LAPTOP-LCKOCNDG" time="0.014">
+  <properties/>
+  <testcase name="setStudentName_NameWithSpacesBetweenWords_ShouldThrowsException" classname="StudentTest" time="0.001"/>
+  <testcase name="setStudentSurname_RightSurname_ShouldsetStudentSurname" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentSurname_SurnameWithSpaces_ShouldThrowException" classname="StudentTest" time="0.0"/>
+  <testcase name="setNonValidAge" classname="StudentTest" time="0.0"/>
+  <testcase name="renameStudent_NonValidSurname" classname="StudentTest" time="0.001"/>
+  <testcase name="setStudentPatronymic_EmptyPatronymic_ShouldsetStudentSurname" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentPatronymic_PatronymicWithSpacesBetweenWords_ShouldThrowException" classname="StudentTest" time="0.0"/>
+  <testcase name="renameStudent_NonValidName" classname="StudentTest" time="0.0"/>
+  <testcase name="renameStudent_NonValidPatronymic" classname="StudentTest" time="0.0"/>
+  <testcase name="renameStudent" classname="StudentTest" time="0.001"/>
+  <testcase name="setStudentAge" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentSurname_SurnameWithSpacesBetweenWords_ShouldThrowException" classname="StudentTest" time="0.001"/>
+  <testcase name="setStudentAge2" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentName_NameWithSpacesAndDigits_ShouldThrowsException" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentName_RightName_ShouldsetStudentName" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentName_NameWithSpaces_ShouldThrowsException" classname="StudentTest" time="0.001"/>
+  <testcase name="setStudentPatronymic_RightPatronymic_ShouldSetStudentPatronymic2" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentPatronymic_RightPatronymic_ShouldSetStudentPatronymic" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentSurname_SurnameWithSpacesBetweenWord_ShouldThrowException" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentSurname_EmptySurname_ShouldThrowException" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentPatronymic_PatronymicWithSpaces_ShouldThrowException" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentName_NameWithSpacesInStartAndEnd_ShouldThrowsException" classname="StudentTest" time="0.001"/>
+  <testcase name="setStudentPatronymic_PatronymicWithSpacesAfterWord_ShouldThrowException" classname="StudentTest" time="0.0"/>
+  <testcase name="setMiddleAge" classname="StudentTest" time="0.0"/>
+  <testcase name="setStudentName_EmptyName_ShouldThrowsException" classname="StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
