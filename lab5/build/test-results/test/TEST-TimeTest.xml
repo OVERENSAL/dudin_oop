@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TimeTest" tests="38" skipped="0" failures="0" errors="0" timestamp="2020-07-12T08:33:20" hostname="LAPTOP-LCKOCNDG" time="0.048">
+  <properties/>
+  <testcase name="postfixInc" classname="TimeTest" time="0.004"/>
+  <testcase name="subtractBorderTime" classname="TimeTest" time="0.0"/>
+  <testcase name="sumTime" classname="TimeTest" time="0.0"/>
+  <testcase name="divisionTime" classname="TimeTest" time="0.0"/>
+  <testcase name="divisionTimeOnTime2" classname="TimeTest" time="0.0"/>
+  <testcase name="prefixInc" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsStrictlyGreaterThenSecond" classname="TimeTest" time="0.0"/>
+  <testcase name="multiplicationTime2" classname="TimeTest" time="0.0"/>
+  <testcase name="prefSumTime" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsStrictlyLessThenSecond" classname="TimeTest" time="0.0"/>
+  <testcase name="divisionTimeOnTime" classname="TimeTest" time="0.0"/>
+  <testcase name="multiplicationTime" classname="TimeTest" time="0.0"/>
+  <testcase name="subtractLessTime" classname="TimeTest" time="0.0"/>
+  <testcase name="sumBorderTime" classname="TimeTest" time="0.0"/>
+  <testcase name="subtractTime2" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsStrictlyGreaterThenSecond2" classname="TimeTest" time="0.001"/>
+  <testcase name="firstIsStrictlyGreaterThenSecond3" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsStrictlyGreaterThenSecond4" classname="TimeTest" time="0.0"/>
+  <testcase name="borderInc" classname="TimeTest" time="0.0"/>
+  <testcase name="divisionTime2" classname="TimeTest" time="0.0"/>
+  <testcase name="prefSubtractTime" classname="TimeTest" time="0.002"/>
+  <testcase name="prefMultiplicationTime" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsNotStrictlyLessThenSecond2" classname="TimeTest" time="0.001"/>
+  <testcase name="borderValid" classname="TimeTest" time="0.0"/>
+  <testcase name="timesAreEqual2" classname="TimeTest" time="0.001"/>
+  <testcase name="subtractTime" classname="TimeTest" time="0.0"/>
+  <testcase name="timesAreEqual" classname="TimeTest" time="0.002"/>
+  <testcase name="firstIsNotStrictlyGreaterThenSecond" classname="TimeTest" time="0.002"/>
+  <testcase name="firstIsStrictlyLessThenSecond2" classname="TimeTest" time="0.003"/>
+  <testcase name="firstIsStrictlyLessThenSecond3" classname="TimeTest" time="0.001"/>
+  <testcase name="firstIsStrictlyLessThenSecond4" classname="TimeTest" time="0.001"/>
+  <testcase name="nonValid" classname="TimeTest" time="0.001"/>
+  <testcase name="firstIsNotStrictlyLessThenSecond" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsNotStrictlyGreaterThenSecond2" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsNotStrictlyGreaterThenSecond3" classname="TimeTest" time="0.0"/>
+  <testcase name="firstIsNotStrictlyGreaterThenSecond4" classname="TimeTest" time="0.001"/>
+  <testcase name="isValid" classname="TimeTest" time="0.0"/>
+  <testcase name="prefDivisionTime" classname="TimeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
